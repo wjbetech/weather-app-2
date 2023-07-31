@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App 2 | @wjbetech</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- navbar -->
+
+        <div class="nav">
+            <a><img src="wjbetech-logo.png" alt=""></a>
+
+            <!-- toggle button -->
+            <button id="toggle"></button>
+        </div>
+
+        <!-- App -->
+        <div class="container">
+
+            <!-- left side -->
+            <div class="left-info">
+                <div class="pic-gradient"></div>
+                <div class="today-info">
+                    <h2>FRIDAY</h2>
+                    <span>28 JULY 2023</span>
+                    <div>
+                        <i class="bx bx-current-location"></i>
+                        <span>Paris, FR</span>
+                    </div>
+                </div>
+                <div class="today-weather">
+                    <i class="bx bx-sun bx-lg"></i>
+                    <h1 class="weather-temp">
+                        25°C
+                    </h1>
+                    <h3>SUNNY</h3>
+                </div>
+            </div>
+
+            <!-- right side -->
+            <div class="right-info">
+                <div class="day-info">
+                    <div>
+                        <span class="title">PRECIPITATION</span>
+                        <span class="value">4 %</span>
+                    </div>
+                    <div>
+                        <span class="title">HUMIDITY</span>
+                        <span class="value">21 %</span>
+                    </div>
+                    <div>
+                        <span class="title">WIND SPEED</span>
+                        <span class="value">11 km/h</span>
+                    </div>
+
+                    <ul class="days-list">
+                        <li>
+                            <i class='bx bx-cloud bx-sm'></i>
+                            <span>SAT</span>
+                            <span class="day-temp">21°C</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-cloud-rain bx-sm'></i>
+                            <span>SUN</span>
+                            <span class="day-temp">18°C</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-cloud bx-sm'></i>
+                            <span>MON</span>
+                            <span class="day-temp">22°C</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-sun bx-sm'></i>
+                            <span>TUE</span>
+                            <span class="day-temp">24°C</span>
+                        </li>
+                    </ul>
+
+                    <div class="btn-container">
+                        <button class="button loc-button"><span class="loc-button-text">Search Location</span></button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- load in JavaScript -->
+        <script src="index.js"></script>
+
+    </body>
+
+</html>

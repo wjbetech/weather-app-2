@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "editor.wordWrap": "on",
+  "editor.minimap.autohide": true,
+  "editor.minimap.size": "proportional",
+  "workbench.tree.indent": 12,
+  "diffEditor.renderSideBySide": false
+}
